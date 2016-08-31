@@ -1,21 +1,59 @@
-<?php include('head.php'); ?>
-		
 
-<div class="content">		
+<!DOCTYPE html>
+<html lang="en">
 
-	<h1 class="cursive frontPageLogo">Welcome</h1>
-	<br />
-	<br />
-	<p class="main frontPage frontPageContent">The Cocktail Chemists, Dimitrios (Dim) Zahariadis and Carl Summa, met in 2008 while beating the shit out of each other in Brazilian jiu-jitsu, well truth be told, when Carl was beating the shit out of Dim.  Carl was intrigued that Dim kept leaving for trips around the world while working for various spirit companies and immediately wanted in on that glamorous lifestyle, so Dim took Carl under his wing and the rest is history...</p>
+<head>
 
-	<a href="about.php">
-		<p class="cursive secondary">More about The Cocktail Chemists</p>
-	</a>
-	<center>
-		<img width="300" class="pic" src="./img/chemists.jpg" />
-	</center>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-</div>
+    <title>Cocktail Chemist</title>
 
+    <!-- Bootstrap Core CSS -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<?php include('foot.php'); ?>
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+            <img class="pic" src="./img/Cocktail_logo_small.jpg" />
+                <h1>Coming Soon!</h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="node_modules/bootstrap/dist/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="node_modules/bootstrap/dist/css/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
